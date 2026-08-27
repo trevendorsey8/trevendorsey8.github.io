@@ -151,7 +151,7 @@ nav h1 {
   overflow: hidden;
 }
 
-#portfolio a {
+#portfolio a { 
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -182,11 +182,7 @@ nav h1 {
 
 #portfolio a:hover::after {
   opacity: 1;
+
+
 }
 
-body {
-  background-image: url('https://media.tenor.com/zC0kykySAsMAAAAM/homixide-gang-canvas.gif');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-}
