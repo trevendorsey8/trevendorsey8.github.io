@@ -35,17 +35,18 @@ $(function () {
 createPlatform(500, 0, 20, 290);
 createPlatform(500, 400, 50, 50, "black");
 createPlatform(100, 500, 100, 10, "white"); // bright green for a finished platform
-createPlatform(200, 400, 500, 10, "black");
-createPlatform(300, 700, 400, 10, "black");
-createPlatform(600, 700, 600, 600, "black");
-
-
-    // TODO 3 - Create Collectables
-createCollectable("steve", 1350, 50);
+createPlatform(200, 400, 200, 10, "black");
+createPlatform(200, 600, 700, 10, "black");
+createPlatform(100, 700, 300, 10, "black");
+createPlatform(200, 600, 200, 10, "black");
+createPlatform(100, 300, 300, 10, "black");
+createPlatform(100, 300, 300, 10, "black");
+// TODO 3 - Create Collectables
+createCollectable("steve", 400, 400);
 createCollectable("diamond", 200, 170, 0.5, 0.7);
-createCollectable("steve", 1350, 50);
+createCollectable("steve", 400, 400);
 createCollectable("diamond", 100, 170, 0.5, 0.7);
-createCollectable("steve", 500, 50);
+createCollectable("steve", 300, 300);
 
 
 
